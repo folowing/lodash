@@ -17,7 +17,7 @@ var root = require('./_root');
  * // => Logs the number of milliseconds it took for the deferred invocation.
  */
 var now = function() {
-  return root.Date.now();
+  return Date.now();
 };
 
 module.exports = now;
